@@ -10,6 +10,7 @@ public class AutoCoin : MonoBehaviour
     public int InternalIncrease;
     void Update()
     {
+        CoinIncrease = GlobalMiner.minerPerSec;
         InternalIncrease = CoinIncrease;
         if (CreatingCoin == false )
         {
